@@ -3,22 +3,23 @@
 }
 body {
     margin: 0;
-    background: #2e2c96;
     box-sizing: border-box;
 }
 
 .content {
-    max-width: 800px;
+    width: auto;
     margin: auto;
+    background: #2e2c96;
+    padding-top:30px;
+    padding-bottom: 30px;
+
 }
 
 .logo {
     margin:auto;
-    margin-top:30px;
-    margin-bottom: 30px;
     display: flex;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
 }
 
 .l_s_b {
@@ -83,10 +84,11 @@ li {
     width: 50%;
     height: 50%;
     display: flex;
-
+}
+.gradiente {
+    background: linear-gradient(#2e2c96, #fff);
 
 }
-
 .l_s_b:hover {
     box-shadow: 0 0 10px #909090;
 }
@@ -100,9 +102,7 @@ li {
     background: #fff;
     color: #000;
 }
-.espaco {
-    margin-top: 30px;
-}
+
 footer {
     background: #1f1e53;
     color: #fff;
